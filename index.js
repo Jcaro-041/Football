@@ -1,11 +1,12 @@
 window.onload = init;
-
+// Initializes the button and calls the poplulateTeams function
 function init(){
     const selectButton = document.getElementById("selectButton");
     selectButton.onclick = buttonClicked;
 
     populateTeams();
 }
+
 function getTeamInfo() {
     return [
         {
